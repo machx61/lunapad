@@ -1,5 +1,11 @@
 # lunapad
-a 3x3 macropad with rotary encoder made for a Hack Club YSWS program.
+i made this macropad because well my desk was too empty and i needed something(also out of boredom). it can be mainly used to control music and scroll through pages?(or whatever you may like)
+
+# Features:
+- 3x3 matrix: 9 keys to handle the best of your tasks
+- Rotary encoder: do stuff with just a twist.
+- 14 SK6812 Mini LEDs
+- QMK firmware
 
 # Renders
 
@@ -11,12 +17,20 @@ a 3x3 macropad with rotary encoder made for a Hack Club YSWS program.
 
 <img width="892" height="861" alt="Screenshot 2026-09-15 151733" src="https://github.com/user-attachments/assets/57d3818e-fd27-4fec-b40d-0be921451560" />
 
-# Features:
-- 3x3 matrix: 9 keys to handle the best of your tasks
-- Rotary encoder: do stuff with just a twist.
-- 14 SK6812 Mini LEDs
-- QMK firmware
-
 # Working:
+- It utilises SEEED XIAORP2040 and a custom designed PCB with custom designed 3d printed enclosure and stuff.
 - The macropad runs on QMK firmware and the programmed keys can be changed easily using the source files.
 
+# Assembly:
+- the case is split into two parts- top and bottom, held together by 4 M3 screws from the underside. there are also 4 M3x3mm heatset inserts on the topside standoffs. the pcb is sandwiched between the parts.
+
+<img width="785" height="760" alt="Screenshot 2026-09-15 155345" src="https://github.com/user-attachments/assets/08b91e6b-d222-4b60-9406-02c270e9596b" />
+the screwholes can be seen in the image.
+
+# BOM
+the component list can be checked here [BOM](BOM.md)
+
+# Missing Stuff
+- VIA support(i intend to roll it out sometime after)
+- an OLED screen(if youd want)
+- nothing else for a 3x3 macropad
